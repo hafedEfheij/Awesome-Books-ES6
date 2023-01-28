@@ -1,13 +1,4 @@
-# conference
 <a name="readme-top"></a>
-
-<div align="center">
-  <img src="logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-  <h3><b>Aruba Ruby Conference 2023</b></h3>
-</div>
-
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -15,125 +6,80 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
+  - [Setup](#setup)
+- [👤 Authors](#author)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Aruba Ruby Conference 2023 <a name="about-project"></a>
+# 📖 Awesome Books ES6 <a name="about-project"></a>
 
-**Aruba Ruby Conference 2023** is a webpage built as a capstone project to showcase html, css, and javascript skills gained during Module 1 of the Microverse program.
+Awesome Books ES6 is a project done at Microverse for portfolio showcase and learning purposes.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-- HTML
-- CSS
-- Javascript
+<details>
+  <summary>Languages</summary>
+  <ul>
+    <li>HMTL</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ul>
+</details>
 
-<!-- Features -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Key Features <a name="key-features"></a>
 
-- **Responsive Pages**
-- **Mobile Menu interactions using JS**
-- **Load webpage data using JS**
+- **Dynamically generated HTML**
+- **Local Storage Management**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](https://hafedefheij.github.io/conference/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
-
-```sh
-  cd my-folder
-  git git@github.com:hafedEfheij/Capstone-Project-1.git
-```
+To get a local copy up and running, follow these steps:
 
 ### Prerequisites
 
 In order to run this project you need:
 
-```sh
- npm install
-```
+- VS Code installed.
+- A GitHub account.
+- Git Bash.
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-```sh
-  cd my-folder
-  git clone git@github.com:hafedEfheij/Capstone-Project-1.git
-```
+- On VS Code, you can click on the "Source Control" icon on the left side bar.
+- From there click on the "Clone Repository" button.
+- Paste the URL from this project and choose a folder to store it.
+- Open the project.
 
-### Install
-
-n/a
-
-### Usage
-
-Open index.html in your preferred browser.
-
-### Run tests
-
-To run tests, run the following command:
-
-```sh
-  npm install
-```
-
-```sh
-  npx hint .
-```
-
-```sh
-  npx stylelint "**/*.{css,scss}"
-```
-
-```sh
-  npx eslint .
-```
-
-### Deployment
-
-- Deployed with github pages at:
-- https://hafedefheij.github.io/Capstone-Project-1/
+I do recommend this method given it is easier, but if you want you can make this process by running commands on the Git Bash terminal.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
+<!-- AUTHOR -->
 
-## 👥 Author <a name="authors"></a>
+## 👤 Author <a name="author"></a>
 
-👤 **Hafed Efheij**
+Bryan Hurtado
 
-- GitHub: [@hafed-Efheij](https://github.com/Hafedefheij)
-- LinkedIn: [Hafed-Efehij](https://linkedin.com/in/hafedefheij)
+- GitHub: [@DarkxDev](https://github.com/DarkxDev)
+- Twitter: [@BryanHurtado_](https://twitter.com/BryanHurtado_)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -141,11 +87,8 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[Make MORE button on the home page functional]**
-- [ ] **[Tickets page]**
-- [ ] **[Schedula page]**
+- **Additional functional pages**
+- **User info collection through forms**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -155,7 +98,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/DarkxDev/Awesome-Books/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -163,7 +106,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-Please star this project if you like this project.
+If you like this project, please make sure to visit my page and checkout my other works as well.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -171,28 +114,16 @@ Please star this project if you like this project.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
+I would like to thank Microverse for its guidance throughout this project.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-- **Can I re-use your code?**
-
-  - Sure, no problem!
-
-- **How can I see the project?**
-
-  - Just clone the repository as expained in the setup section, and open the index.html file in your preferred browser.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)<tra/p>
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
