@@ -6,14 +6,14 @@ bookCollection.displayBooks();
 
 const addButton = document.getElementById('add-button');
 addButton.addEventListener('click', () => {
-const titleInput = document.getElementById('title');
-const authorInput = document.getElementById('author');
-const title = titleInput.value;
-const author = authorInput.value;
-bookCollection.addBook(title, author);
-bookCollection.displayBooks();
-titleInput.value = "";
-authorInput.value = "";
+  const titleInput = document.getElementById('title');
+  const authorInput = document.getElementById('author');
+  const title = titleInput.value;
+  const author = authorInput.value;
+  bookCollection.addBook(title, author);
+  bookCollection.displayBooks();
+  titleInput.value = '';
+  authorInput.value = '';
 });
 
 // Nav bar buttons Setup
@@ -29,25 +29,25 @@ const contactSection = document.getElementById('contact_section');
 // List section button actions
 
 addSectionButton.addEventListener('click', () => {
-listSection.style.display = 'none';
-addSection.style.display = 'block';
-contactSection.style.display = 'none';
+  listSection.style.display = 'none';
+  addSection.style.display = 'block';
+  contactSection.style.display = 'none';
 });
 
 // Add section button actions
 
 listSectionButton.addEventListener('click', () => {
-listSection.style.display = 'block';
-addSection.style.display = 'none';
-contactSection.style.display = 'none';
+  listSection.style.display = 'block';
+  addSection.style.display = 'none';
+  contactSection.style.display = 'none';
 });
 
 // Contact section button actions
 
 contactSectionButton.addEventListener('click', () => {
-listSection.style.display = 'none';
-addSection.style.display = 'none';
-contactSection.style.display = 'block';
+  listSection.style.display = 'none';
+  addSection.style.display = 'none';
+  contactSection.style.display = 'block';
 });
 
 // Date and Time Display
