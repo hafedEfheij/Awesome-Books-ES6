@@ -1,10 +1,12 @@
 body {
+  /* Center the content and set a maximum width */
   margin: 0 auto;
   padding: 0;
   max-width: 500px;
 }
 
 h1 {
+  /* Center the heading and add some padding */
   margin: 0 auto;
   font-size: 25px;
   text-align: center;
@@ -12,6 +14,7 @@ h1 {
 }
 
 #book-list {
+  /* Add some styling for the book list section */
   box-sizing: border-box;
   margin: 10px auto;
   border: 2px solid #000;
@@ -19,6 +22,7 @@ h1 {
 }
 
 header nav ul {
+  /* Remove bullet points and display as flex elements */
   list-style: none;
   display: flex;
   padding: 0;
@@ -26,31 +30,37 @@ header nav ul {
 }
 
 #book-list ul {
+  /* Remove default margins for the book list */
   padding: 0;
   margin: 0 auto;
 }
 
 header nav ul li {
+  /* Add some padding and a border for the navigation menu */
   padding: 0 10px;
   border-right: 1px solid #000;
 }
 
 header nav ul li:nth-child(3) {
+  /* Remove the right border for the last menu item */
   padding-right: 0;
   border: none;
 }
 
 #book-list li {
+  /* Display the book list items as flex elements and add space between them */
   display: flex;
   justify-content: space-between;
   padding: 2px 10px;
 }
 
 #book-list li:nth-child(2n) {
+  /* Add a background color to every other book list item */
   background-color: lightgray;
 }
 
 h2 {
+  /* Center the heading and add some padding */
   margin: 0 auto;
   font-size: 25px;
   text-align: center;
@@ -58,79 +68,138 @@ h2 {
 }
 
 form {
+  /* Center the form on the page and align items to the bottom */
   margin: 50px auto;
   align-items: flex-end;
+
+  /* Set the form to display as a flex container with items in a column */
   display: flex;
   flex-direction: column;
+
+  /* Set the width of the form to 60% of the container */
   width: 60%;
 }
 
 form input {
+  /* Add a border around the input box */
   box-sizing: border-box;
+
+  /* Add a margin around the input box */
   margin: 5px auto;
+
+  /* Set the width of the input box to 100% of the container */
   width: 100%;
 }
 
 header {
+  /* Add a margin to the top of the header */
   margin-top: 5px;
 }
 
 header nav {
+  /* Set the navigation menu to display as a flex container */
   display: flex;
+
+  /* Add a border around the navigation menu */
   border: 2px solid #000;
+
+  /* Set the width of the navigation menu to 97% of the container */
   width: 97%;
+
+  /* Center the navigation menu on the page */
   margin: 0 auto;
+
+  /* Spread out the navigation links evenly within the menu */
   justify-content: space-between;
+
+  /* Add padding to the navigation menu */
   padding: 10px;
+
+  /* Add a border around the navigation menu */
   box-sizing: border-box;
 }
 
 header nav p {
+  /* Remove any margins from the navigation menu text */
   margin: 0;
 }
 
 header nav ul li a {
+  /* Remove any underlines from the navigation links */
   text-decoration: none;
+
+  /* Set the color of the navigation links to black */
   color: #000;
 }
 
 #date {
+  /* Right-align the date on the page */
   text-align: right;
+
+  /* Center the date on the page */
   margin: 0 auto;
+
+  /* Set the width of the date to 97% of the container */
   width: 97%;
+
+  /* Add padding to the date */
   padding: 5px 0 15px 0;
+
+  /* Set the font size of the date */
   font-size: 13px;
 }
 
 footer {
+  /* Add a border around the footer */
   border: 2px solid #000;
+
+  /* Add padding to the footer */
   padding: 10px;
+
+  /* Set the width of the footer to 97% of the container */
   width: 97%;
+
+  /* Add a border around the footer */
   box-sizing: border-box;
+
+  /* Center the footer on the page */
   margin: 0 auto;
 }
 
 #footer_copyright {
+  /* Center the copyright text on the page */
   margin: 0 auto;
 }
 
 #contact_section {
+  /* Hide the contact section by default */
   display: none;
+
+  /* Set the width of the contact section to 80% of the container */
   width: 80%;
+
+  /* Center the contact section on the page */
   margin: 0 auto;
 }
 
 #contact_section h2 {
+  /* Remove any padding from the heading */
   padding: 0;
+
+  /* Add a margin beneath the heading */
   margin-bottom: 40px;
 }
 
 #contact_section ul {
+  /* Add a bottom padding to the list */
   padding-bottom: 60px;
+
+  /* Center the list on the page */
   margin: 0 auto;
 }
 
 #list_section {
+  /* Display the list section by default */
   display: block;
 }
 
