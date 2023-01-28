@@ -76,10 +76,10 @@ I do recommend this method given it is easier, but if you want you can make this
 
 ## 👤 Author <a name="author"></a>
 
-Bryan Hurtado
+Hafed
 
-- GitHub: [@DarkxDev](https://github.com/DarkxDev)
-- Twitter: [@BryanHurtado_](https://twitter.com/BryanHurtado_)
+- GitHub: [@hafed](https://github.com/hafedefheij)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
