@@ -50,7 +50,7 @@ addSection.style.display = 'none';
 contactSection.style.display = 'block';
 });
 
-// Date & Time Display
+// Date and Time Display
 
 const currentTime = DateTime.local();
 const formattedTime = currentTime.toFormat('MMMM dd yyyy, hh:mm:ss a');
