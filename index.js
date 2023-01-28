@@ -6,17 +6,21 @@ bookCollection.displayBooks();
 
 const addButton = document.getElementById('add-button');
 addButton.addEventListener('click', () => {
-  const title = document.getElementById('title').value;
-  const author = document.getElementById('author').value;
-  bookCollection.addBook(title, author);
-  bookCollection.displayBooks();
+const titleInput = document.getElementById('title');
+const authorInput = document.getElementById('author');
+const title = titleInput.value;
+const author = authorInput.value;
+bookCollection.addBook(title, author);
+bookCollection.displayBooks();
+titleInput.value = "";
+authorInput.value = "";
 });
 
 // Nav bar buttons Setup
 
-const btnListSection = document.getElementById('btn_listSection');
-const btnAddSection = document.getElementById('btn_addSection');
-const btnContactSection = document.getElementById('btn_contactSection');
+const listSectionButton = document.getElementById('btn_listSection');
+const addSectionButton = document.getElementById('btn_addSection');
+const contactSectionButton = document.getElementById('btn_contactSection');
 
 const listSection = document.getElementById('list_section');
 const addSection = document.getElementById('add_section');
@@ -24,32 +28,32 @@ const contactSection = document.getElementById('contact_section');
 
 // List section button actions
 
-btnAddSection.addEventListener('click', () => {
-  listSection.style.display = 'none';
-  addSection.style.display = 'block';
-  contactSection.style.display = 'none';
+addSectionButton.addEventListener('click', () => {
+listSection.style.display = 'none';
+addSection.style.display = 'block';
+contactSection.style.display = 'none';
 });
 
 // Add section button actions
 
-btnListSection.addEventListener('click', () => {
-  listSection.style.display = 'block';
-  addSection.style.display = 'none';
-  contactSection.style.display = 'none';
+listSectionButton.addEventListener('click', () => {
+listSection.style.display = 'block';
+addSection.style.display = 'none';
+contactSection.style.display = 'none';
 });
 
 // Contact section button actions
 
-btnContactSection.addEventListener('click', () => {
-  listSection.style.display = 'none';
-  addSection.style.display = 'none';
-  contactSection.style.display = 'block';
+contactSectionButton.addEventListener('click', () => {
+listSection.style.display = 'none';
+addSection.style.display = 'none';
+contactSection.style.display = 'block';
 });
 
 // Date & Time Display
 
-const localTime = DateTime.local();
-const timeNow = localTime.toFormat('MMMM dd yyyy, hh:mm:ss a');
+const currentTime = DateTime.local();
+const formattedTime = currentTime.toFormat('MMMM dd yyyy, hh:mm:ss a');
 
 const dateText = document.getElementById('date');
-dateText.textContent = timeNow;
+dateText.textContent = formattedTime;
